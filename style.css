@@ -9,38 +9,57 @@ body{
     color: aliceblue;
 }
 .tituloPrincipal{
-    color: rgb(177, 0, 15);
+    color: rgb(48, 10, 235);
     
 }
 .apresentacao{
-    margin: 10%;
+    margin: 10% 20%;
     align-items: center;
+    display: flex;
     justify-content: space-between ;
 }
 .apresentacao_conteudo{
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
 }
 .titulo{
     font-size:30px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .texto{
     font-size: 20px;
 }
+.subtitulo_links{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
 .links{
-    
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     justify-content:space-between ;
+    gap: 10px;
     
 }
 .link{
-    color: rgb(38, 0, 255);
-    background-color: rgb(7, 247, 255);
-    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    gap: 10px;
+    background-color: aliceblue;
+    border: 2px solid rgb(48, 10, 235);
+    color: rgb(55, 10, 255);
+    width: 290px;
     font-size: 20px;
     text-align: center;
-    border-radius: 15px;
-    padding: 15px;
+    border-radius: 10px;
+    padding: 10px;
     text-decoration: none;
 }
-
+.link:hover{
+    background-color: beige;
+}
 
